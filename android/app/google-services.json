@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655512946169",
+    "project_id": "mysd-9212f",
+    "storage_bucket": "mysd-9212f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655512946169:android:a9ccf69dcb54741968a928",
+        "android_client_info": {
+          "package_name": "com.mysd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655512946169-2ncn9mldkd7v3v6k7q3tabiujqerv0s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABCnBvF5FBGXKjCzFII0VGMUie0Ibwu4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655512946169-2ncn9mldkd7v3v6k7q3tabiujqerv0s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
