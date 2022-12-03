@@ -33,12 +33,7 @@ import { HomeScreen } from './src/components/HomeScreen';
 import { AuthScreen } from './src/components/AuthScreen';
 import { LoginScreen } from './src/components/auth/LoginScreen';
 import { RegisterScreen } from './src/components/auth/RegisterScreen';
-
-import { GoogleSignin } from '@react-native-google-signin/google-signin';
-
-GoogleSignin.configure({
-  webClientId: '655512946169-2ncn9mldkd7v3v6k7q3tabiujqerv0s6.apps.googleusercontent.com',
-});
+import { CreateAppointment } from './src/components/appointments/create-appointment';
 
 const Stack = createNativeStackNavigator();
 
@@ -85,7 +80,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
-          component={HomeScreen}
+          component={CreateAppointment}
           options={{ title: 'Welcome' }}
         />
         <Stack.Screen name="Auth" component={AuthScreen} />
