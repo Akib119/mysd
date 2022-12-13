@@ -23,6 +23,7 @@ export const CreateAppointment = ({ navigation, route }) => {
         rePassword: ''
     });
 
+
     const submitData = () => {
         console.log('createAppointmentData', createAppointmentData);
         

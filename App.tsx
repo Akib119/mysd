@@ -34,6 +34,7 @@ import { AuthScreen } from './src/components/AuthScreen';
 import { LoginScreen } from './src/components/auth/LoginScreen';
 import { RegisterScreen } from './src/components/auth/RegisterScreen';
 import { CreateAppointment } from './src/components/appointments/create-appointment';
+import { DashboardScreen } from './src/components/dashboard';
 
 const Stack = createNativeStackNavigator();
 
@@ -80,7 +81,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
-          component={CreateAppointment}
+          component={DashboardScreen}
           options={{ title: 'Welcome' }}
         />
         <Stack.Screen name="Auth" component={AuthScreen} />
